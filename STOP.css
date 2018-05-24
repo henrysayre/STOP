@@ -1,5 +1,5 @@
 body {
-    background-color: lightgreen;
+    background-color: forestgreen;
 }
 
 h1{
@@ -11,8 +11,22 @@ h1{
 h2{
    text-align: left;
    font-size: 50px;
-
+    color: white;
 }
-#topnav {
-
+#GoalsBox{
+    width: 250px;
+    border: 10px forestgreen;
+    padding: 10px;
+    margin: 25px;
+    font-family: Monaco;
+    font-size: larger;
+    text-align: left;
+    color: white;
+}
+#Goals{
+    font-size: x-large;
+    font-family: Monaco;
+}
+#Goals Header{
+    font-family: Monaco;
 }
