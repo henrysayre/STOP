@@ -1,5 +1,5 @@
 body {
-    background-color: darkgreen;
+    background-color: darkcyan;
 }
 
 h1{
@@ -12,4 +12,7 @@ h2{
    text-align: left;
    font-size: 50px;
 
+}
+#output {
+    text-emphasis-color: inherit ;
 }
