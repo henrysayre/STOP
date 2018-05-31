@@ -1,5 +1,5 @@
 body {
-    background-color: grey;
+    background-color: forestgreen;
 }
 
 h1{
@@ -11,8 +11,43 @@ h1{
 h2{
    text-align: left;
    font-size: 50px;
-
+    font-family: Monaco;
+    color: white;
 }
-#topnav {
-
+#GoalsBox1{
+    text-align: left;
+    color: white;
+    font-family: Monaco;
 }
+#GoalsBox2{
+    text-align: left;
+    color: white;
+    font-family: Monaco;
+}
+#GoalsBox3{
+    text-align: left;
+    color: white;
+    font-family: Monaco;
+}
+#GoalsBox4{
+    text-align: left;
+    color: white;
+    font-family: Monaco;
+}
+#InfoBox{
+    text-align: center;
+    color: white;
+    font-family: Monaco;
+}
+#InfoBox{}
+h3{
+    font-size: 50px;
+    color: white;
+    font-family: Monaco;
+}
+
+#natureImage{
+    width: 50%;
+    height: 45%;
+}
+
