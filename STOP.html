@@ -7,26 +7,54 @@
     <script src="taylan.js"></script>
     <script src="STOP.js"></script>
     <link rel="stylesheet" href="STOP.css">
-
 </head>
 <body>
 <h1>S.T.O.P.</h1>
 <h2>Goals</h2>
-<div id="GoalsBox">
+<div id="GoalsBox1">
     - Encourage the appreciation of nature.
-    - Reward people for their engagement.
-    - Advocate for legislation that protects green spaces.
-    - Educate users on the importance of environmental protection.
 </div>
-<div id="">
+    <div id="GoalsBox2">
+        - Reward people for their engagement.
+    </div>
+    <div id="GoalsBox3">
+         - Advocate for legislation that protects green spaces.
+    </div>
+    <div id="GoalsBox4">
+    - Educate users on the importance of environmental protection.
+        </div>
 
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-    .vl {
-        height: 900px;
-    }
-</style>
-<div class="vl"></div>
+<div id="natureImage">
+    <img src="https://baynature.org/wp-content/uploads/2012/07/D3A25442-Irish-Canyon-4-23-11-Scott-Hein.jpg" alt="People in Nature">
+</div>
+<h3>Info</h3>
+<div id="InfoBox">
+
+    The destruction of open green spaces remains a major problem in EVERYONE'S daily lives. Even
+    if you truly couldn't care less about natural parks being urbanized, or trees being cut down,
+    nature offers many benefits to humans that we simply take for granted everyday.
+    UK studies show that exposure to nature can reduce hypertension, respiratory tract and cardiovascular illnesses;
+    improve vitality and mood; benefit issues of mental well being such as anxiety; and restore attention capacity and mental fatigue.
+    But more than that, feeling a part of nature has been shown to significantly correlate with life satisfaction, vitality, meaningfulness,
+    happiness, mindfulness, and lower cognitive anxiety. SO, why not help stop this abomination that is the destruction of open green spaces.
+</div>
+<div id="GoalsImage"></div>
+
+<select id="listGoals">
+    <option value="select">Choose a Challenge</option>
+    <option value="goal1">Challenge #1</option>
+    <option value="goal2">Challenge #2</option>
+    <option value="goal3">Challenge #3</option>
+    <option value="goal4">Challenge #4</option>
+
+</select>
+<button onclick="listGoals()">Show Goal</button>
+<button onclick="points()"> Mark goal as Complete</button>
+<br><br>
+<div id="output"></div>
+
+<div id="firstPrize"></div>
+
 
 </body>
 </html>
