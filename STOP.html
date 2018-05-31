@@ -7,9 +7,11 @@
     <script src="taylan.js"></script>
     <script src="STOP.js"></script>
     <link rel="stylesheet" href="STOP.css">
+
 </head>
 <body>
 <h1>S.T.O.P.</h1>
+<hr>
 <h2>Goals</h2>
 <div id="GoalsBox1">
     - Encourage the appreciation of nature.
@@ -25,8 +27,10 @@
         </div>
 
 <div id="natureImage">
-    <img src="https://baynature.org/wp-content/uploads/2012/07/D3A25442-Irish-Canyon-4-23-11-Scott-Hein.jpg" alt="People in Nature">
+    <img src="https://baynature.org/wp-content/uploads/2012/07/D3A25442-Irish-Canyon-4-23-11-Scott-Hein.jpg" alt="People in Nature" height = "300" width="400">
 </div>
+<hr>
+<hr>
 <h3>Info</h3>
 <div id="InfoBox">
 
@@ -38,6 +42,11 @@
     But more than that, feeling a part of nature has been shown to significantly correlate with life satisfaction, vitality, meaningfulness,
     happiness, mindfulness, and lower cognitive anxiety. SO, why not help stop this abomination that is the destruction of open green spaces.
 </div>
+<br>
+
+<hr>
+<hr>
+<br>
 <div id="GoalsImage"></div>
 
 <select id="listGoals">
@@ -48,8 +57,8 @@
     <option value="goal4">Challenge #4</option>
 
 </select>
-<button onclick="listGoals()">Show Goal</button>
-<button onclick="points()"> Mark goal as Complete</button>
+<button id ="listButon" onclick="listGoals()">Show Goal</button>
+<button id = "outputButton" onclick="points()"> Mark goal as Complete</button>
 <br><br>
 <div id="output"></div>
 

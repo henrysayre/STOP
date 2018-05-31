@@ -47,7 +47,35 @@ h3{
 }
 
 #natureImage{
-    width: 50%;
-    height: 45%;
+
 }
+#listGoals{
+
+    font-size: 20px;
+    font-family: Monaco;
+}
+#output{
+    color: white;
+    font-size: 15px;
+    font-family: Monaco;
+
+}
+#listButon{
+    font-family: Monaco;
+    font-size: 20px;
+    text-color: white;
+
+}
+#outputButton{
+    font-family: Monaco;
+    font-size: 20px;
+    text-color: white;
+
+
+}
+
+
+
+
+
 
