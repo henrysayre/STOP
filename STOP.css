@@ -53,30 +53,42 @@ h4{
     font-family: Monaco;
     text-align: center;
 }
+h5{
+    font-size: 50px;
+    color: white;
+    font-family: Monaco;
+    text-align: center;
+
+}
 #natureImage{
 
 }
 #listGoals{
 
-    font-size: 20px;
+    font-size: 30px;
     font-family: Monaco;
 }
 #output{
     color: white;
     font-size: 15px;
     font-family: Monaco;
+    align-self: center;
+    font-size: 30px;
 
 }
 #listButon{
     font-family: Monaco;
-    font-size: 20px;
+    font-size: 50px;
     text-color: white;
+
+
 
 }
 #outputButton{
     font-family: Monaco;
     font-size: 20px;
     text-color: white;
+    text-align: center;
 
 
 }
