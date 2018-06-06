@@ -94,12 +94,22 @@ h5{
     font-size: 20px;
     text-color: white;
     text-align: center;
-
-
 }
 
-
-
-
+#firstGoal{
+    color: white;
+    font-size: 45px;
+    font-family: Monaco;
+}
+#secondGoal{
+    color: white;
+    font-size: 45px;
+    font-family: Monaco;
+}
+#thirdGoal{
+    color: white;
+    font-size: 45px;
+    font-family: Monaco;
+}
 
 
