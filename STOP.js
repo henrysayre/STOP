@@ -1,6 +1,10 @@
 var totalPoints = 0;
-var allGoals = [new Goal("15 minute nature walk",20, "Going on a 15 minute(or longer) walk in nature.", false), new Goal("Nature Selfie", 10, "Take a selfie in nature.", false), +
-    new Goal("Plant a seed",25,"Plant a seed of any type in nature.",false), + new Goal("City Cleanup", 30, "Spend a day and clean a neighborhood, beach, or any open space in nature.", false)];
+var allGoals = [
+    new Goal("15 minute nature walk",20, "Going on a 15 minute(or longer) walk in nature.", false),
+    new Goal("Nature Selfie", 10, "Take a selfie in nature.", false),
+    new Goal("Plant a seed",25,"Plant a seed of any type in nature.",false),
+    new Goal("City Cleanup", 30, "Spend a day and clean a neighborhood, beach, or any open space in nature.", false)
+];
 
 var completedGoals = [];
 var prize = "";
@@ -39,9 +43,7 @@ function listGoals(){
     if(document.getElementById("listGoals").value === "goal4"){
         document.getElementById("output").innerHTML = allGoals[3].goalDescip + " Points accredited: " + allGoals[3].numPoints;
     }
-    if(document.getElementById("listGoals").value === "goal5"){
-        document.getElementById("output").innerHTML = allGoals[4].goalDescip + " Points accredited: " + allGoals[4].numPoints;
-    }
+
 
 
 }
